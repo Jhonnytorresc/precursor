@@ -10,13 +10,13 @@ namespace _15_Ejercicio_Repaso01
         static void Main(string[] args)
         {
             Console.WriteLine("Escribe un número:");
-            string numerouno;
-            numerouno = Console.ReadLine();
+            string numerouno = Console.ReadLine();
             Console.WriteLine("Escribe otro número:");
-            string numerodos;
-            numerodos = Console.ReadLine();
-            int numerounoInt = Convert.ToInt32(numerouno);
-            int numerodosInt = Convert.ToInt32(numerodos);
+            string numerodos = Console.ReadLine();
+
+            double numerounoInt = Convert.ToInt32(numerouno);
+            double numerodosInt = Convert.ToInt32(numerodos);
+
             Console.WriteLine("El resultado de " + numerouno + " + " + numerodos + " = " + (numerounoInt + numerodosInt));
             Console.WriteLine("El resultado de"  + numerouno + " - " + numerodos + " = "  + (numerounoInt - numerodosInt));
             Console.WriteLine("El resultado de " + numerouno + " * " + numerodos + " = " + (numerounoInt * numerodosInt));

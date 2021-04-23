@@ -21,9 +21,9 @@ namespace _17_Ejercicio_Repaso03
             string numerotres;
             numerotres = Console.ReadLine();
 
-            int numerotresInt = Convert.ToInt32(numerotres);
-            int numerounoInt = Convert.ToInt32(numerouno);
-            int numerodosInt = Convert.ToInt32(numerodos);
+            double numerotresInt = Convert.ToInt32(numerotres);
+            double numerounoInt = Convert.ToInt32(numerouno);
+            double numerodosInt = Convert.ToInt32(numerodos);
 
             Console.WriteLine( (numerounoInt + numerodosInt + numerotresInt) / 3); 
 

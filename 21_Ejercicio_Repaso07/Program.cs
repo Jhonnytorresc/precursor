@@ -11,7 +11,18 @@ namespace _21_Ejercicio_Repaso07
     {
         static void Main(string[] args)
         {
-            //Introduce aquí tu código
+            var seed = Environment.TickCount; //Introduce aquí tu código
+            var random = new Random(seed);
+
+            for (int i = 0; i <= 10; i++)
+            {
+                var value = random.Next(0, 100);
+                Console.WriteLine(value);
+                Console.Read();
+            }
+
         }
+
+        
     }
 }

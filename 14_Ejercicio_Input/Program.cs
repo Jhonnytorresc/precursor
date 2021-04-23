@@ -16,11 +16,10 @@ namespace _14_Ejercicio_Input
         static void Main (string[] args)
         {
             Console.WriteLine("¿Como te llamas?");
-                string nombre;
-            nombre = Console.ReadLine();
+                string nombre = Console.ReadLine();
             Console.WriteLine("¿Cuantos años tienes?");
-            string edadtexto;
-            edadtexto = Console.ReadLine();
+                string edadtexto = Console.ReadLine();
+
             int edad;
             edad = Convert.ToInt32(edadtexto);
             Console.WriteLine("Hola " + nombre + " tienes " + edad + " años.");

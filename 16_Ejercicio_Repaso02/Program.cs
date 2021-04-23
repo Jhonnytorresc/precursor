@@ -17,11 +17,12 @@ namespace _16_Ejercicio_Repaso02
         static void Main(string[] args)
         {
             Console.WriteLine("Escribe los segundos que vamos a pasar a horas, minutos y segundos" ); //Introduce tu código aquí
-            string segundos;
-            segundos = Console.ReadLine();
+            string segundos = Console.ReadLine();
+
             int horasInt = Convert.ToInt32(segundos);
             int minutosInt = Convert.ToInt32(segundos);
             int segundoInt = Convert.ToInt32(segundos);
+
             Console.WriteLine((segundos )  + " segundos son: " + (horasInt / 3600) + " horas, " + (minutosInt % 3600) + " minutos y " + (segundoInt % 60) + " segundos. ");
         }
     }
